@@ -14,8 +14,7 @@ variables:
   dockerRegistryServiceConnection: '4798ab9a-aaa4-4e2a-8c83-eb6743b20630'
   imageRepository: 'postgresql'
   containerRegistry: 'acraksbae.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: '13.9'
   imagePullSecret: 'acraksbae16118f25-auth'
 
   # Agent VM image name

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: postgresdb
-        image: postgres:13.9
+        image: acraksbae.azurecr.io/postgres:13.9
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5432
